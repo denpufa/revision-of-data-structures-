@@ -12,7 +12,9 @@ class Lista:
   def insercaoPorIndex(self,elemento,index):
     listaAux = self.lista[:index] #parte antes do elemento
     listaAux.append(elemento) #add o elemento
-    listaAux.extend(self.lista[index:]) #parte depois do elemento
+    #parte depois do elemento
+    for x in self.lista[index:]:
+      listaAux.append(x)
     self.lista = listaAux
     self.tamanho += 1
   
