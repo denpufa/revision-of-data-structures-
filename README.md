@@ -1,2 +1,2 @@
 # revision-of-data-structures-
-- [x] *__linked list__*
+- [x] *__Sequence list__*
